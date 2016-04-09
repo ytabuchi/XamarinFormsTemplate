@@ -1,0 +1,31 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup"
+  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>XFApp</Name>
+    <Description>Xamarin.Forms 2.1.0.6529 Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent PreferedSolutionConfiguration="Debug|Any CPU">
+    <ProjectCollection>
+        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+          XFApp\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+          XFApp.Droid\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+          XFApp.iOS\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+          XFApp.UWP\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Windows" CopyParameters="true">
+          XFApp.Windows\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.WinPhone" CopyParameters="true">
+          XFApp.WinPhone\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
