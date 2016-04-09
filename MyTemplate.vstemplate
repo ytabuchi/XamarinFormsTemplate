@@ -1,10 +1,12 @@
 <VSTemplate Version="3.0.0" Type="ProjectGroup"
   xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>XFApp</Name>
+    <Name>Xamarin.Forms App (JXUG)</Name>
     <Description>Xamarin.Forms 2.1.0.6529 Template</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
+    <DefaultName>XFApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent PreferedSolutionConfiguration="Debug|Any CPU">
     <ProjectCollection>
