@@ -1,7 +1,19 @@
 # XamarinFormsTemplate
-Source code of Xamarin.Forms Template
-This is NOT a source code of vsix. 
-Please see [this entry (in Japanese)](http://ytabuchi.hatenablog.com/entry/vs-xf-template) for how to use.
+
+This is source code of newest Xamarin.Forms Template made by Japan Xamarin User Group.
+
+# How to use
+
+1. Download or fork this repository.
+2. Extract downloaded .zip file.
+3. In extracted folder that is named `XamarinFormsTemplate-master`, zip all files and folders to your preferred name.
+4. Locate the .zip file to `Visual Studio project folder\Templates\ProjectTemplates\Visual C#`.
+5. Try create a new project. you can see the below.
+
+
+
+Please see [blog page (in Japanese)](http://ytabuchi.hatenablog.com/entry/vs-xf-template) for how to use.
+
 
 # How to maintenance
 
