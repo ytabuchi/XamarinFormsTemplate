@@ -8,9 +8,9 @@ This is source code of newest Xamarin.Forms Template made by Japan Xamarin User 
 2. Extract downloaded .zip file.
 3. In extracted folder that is named `XamarinFormsTemplate-master`, zip all files and folders to your preferred name.
 4. Locate the .zip file to `Visual Studio project folder\Templates\ProjectTemplates\Visual C#`.
-5. Try create a new project. you can see the below.
+5. Try create a new project and choose `Xamarin.Forms Project (JXUG)`. 
 
-
+<img src="https://github.com/ytabuchi/XamarinFormsTemplate/blob/master/NewProject.png" alt="New project dialog" width="450" />
 
 Please see [blog page (in Japanese)](http://ytabuchi.hatenablog.com/entry/vs-xf-template) for how to use.
 
