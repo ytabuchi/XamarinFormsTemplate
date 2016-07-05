@@ -2,29 +2,35 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
 namespace $safeprojectname$
 {
-    public class App : Application
+    public partial class App : Application
     {
         public App()
         {
+            InitializeComponent();
+
             // The root page of your application
-            MainPage = new ContentPage
+            var content = new ContentPage
             {
+                Title = "$safeprojectname$",
                 Content = new StackLayout
                 {
                     VerticalOptions = LayoutOptions.Center,
                     Children = {
-                         new Label {
-                             HorizontalTextAlignment = TextAlignment.Center,
-                             Text = "Welcome to Xamarin Forms!"
-                         }
-                     }
+                        new Label {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Text = "Welcome to Xamarin Forms!"
+                        }
+                    }
                 }
             };
+
+            MainPage = new NavigationPage(content);
         }
 
         protected override void OnStart()

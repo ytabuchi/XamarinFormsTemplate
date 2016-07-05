@@ -38,6 +38,13 @@
         <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi">
           <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
         </Folder>
+        <Folder Name="layout" TargetFolderName="layout">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Tabbar.axml">Tabbar.axml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Toolbar.axml">Toolbar.axml</ProjectItem>
+        </Folder>
+        <Folder Name="values" TargetFolderName="values">
+          <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
+        </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="Resource.Designer.cs">Resource.Designer.cs</ProjectItem>
       </Folder>
     </Project>
