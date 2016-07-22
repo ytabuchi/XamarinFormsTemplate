@@ -15,22 +15,7 @@ namespace $safeprojectname$
             InitializeComponent();
 
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "$safeprojectname$",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
-
-            MainPage = new NavigationPage(content);
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
