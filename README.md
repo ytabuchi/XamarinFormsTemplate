@@ -4,7 +4,7 @@ This is source code of newest Xamarin.Forms Template made by Japan Xamarin User 
 
 # How to get
 
-## Option 1: Clone the Repository (Recommended)
+### Option 1: Clone the Repository (Recommended)
 
 Clone the project on the following location directly:
 
@@ -19,7 +19,7 @@ git clone https://github.com/ytabuchi/XamarinFormsTemplate.git
 
 After the first installation, you can of course update your copy by ```git pull``` and you feel it's easier to update the templates than the other option.
 
-## Option 2: Download the ZIP
+### Option 2: Download the ZIP
 
 - Download XamarinFormsTemplate-master.zip file from [GitHub](https://github.com/ytabuchi/XamarinFormsTemplate/archive/master.zip)
 - Extract the zip file
