@@ -2,7 +2,7 @@
   xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
     <Name>Xamarin.Forms App (JXUG)</Name>
-    <Description>Xamarin.Forms 2.3.3.168 Template</Description>
+    <Description>Xamarin.Forms 2.3.3.175 Template</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
     <DefaultName>XFApp</DefaultName>
