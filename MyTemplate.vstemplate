@@ -22,12 +22,6 @@
         <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
           XFApp.UWP\MyTemplate.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Windows" CopyParameters="true">
-          XFApp.Windows\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.WinPhone" CopyParameters="true">
-          XFApp.WinPhone\MyTemplate.vstemplate
-        </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>
