@@ -1,6 +1,12 @@
 # XamarinFormsTemplate
 
-This is source code of newest Xamarin.Forms Template made by Japan Xamarin User Group.
+This is source code of newest Xamarin.Forms with .NET Standard Xamarin.Forms core project Template by Japan Xamarin User Group.
+
+## Specification
+
+- Xamarin.Forms 3.1.0.583944
+- PackageReference (can use only Visual Studio 2017)
+- .NET Standard 2.0 core project
 
 # How to get
 
