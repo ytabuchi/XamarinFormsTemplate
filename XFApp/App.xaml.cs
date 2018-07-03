@@ -1,10 +1,12 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
 namespace $safeprojectname$
 {
@@ -14,8 +16,7 @@ namespace $safeprojectname$
         {
             InitializeComponent();
 
-            // The root page of your application
-            MainPage = new NavigationPage(new HomePage());
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

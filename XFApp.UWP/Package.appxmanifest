@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="$guid7$"
+    Name="$guid4$"
     Publisher="$XmlEscapedPublisherDistinguishedName$"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="$guid7$" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="$guid4$" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>$ext_safeprojectname$.UWP</DisplayName>

@@ -1,25 +1,21 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>XFApp.Droid</Name>
-    <Description>Xamarin.Forms Sample</Description>
+    <Name>XFApp.Android</Name>
+    <Description>Xamarin.Forms Template using .NET Standard</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>
-    </ProjectSubType>
-    <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>XFApp.Droid</DefaultName>
+    <DefaultName>XFApp.Android</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="XFApp.Droid.csproj" File="XFApp.Droid.csproj" ReplaceParameters="true">
+    <Project TargetFileName="XFApp.Android.csproj" File="XFApp.Android.csproj" ReplaceParameters="true">
       <Folder Name="Assets" TargetFolderName="Assets">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
@@ -42,10 +38,10 @@
           <ProjectItem ReplaceParameters="false" TargetFileName="Tabbar.axml">Tabbar.axml</ProjectItem>
           <ProjectItem ReplaceParameters="false" TargetFileName="Toolbar.axml">Toolbar.axml</ProjectItem>
         </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.Designer.cs">Resource.Designer.cs</ProjectItem>
         <Folder Name="values" TargetFolderName="values">
           <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
         </Folder>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.Designer.cs">Resource.Designer.cs</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>

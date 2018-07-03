@@ -21,7 +21,7 @@ namespace $safeprojectname$
         {
             this.InitializeComponent();
 
-            LoadApplication(new $ext_safeprojectname$.App());
+            LoadApplication(new XFApp.App());
         }
     }
 }
