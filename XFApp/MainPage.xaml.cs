@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace $safeprojectname$
 {
-    public partial class HomePage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : ContentPage
     {
-        public HomePage()
+        public MainPage()
         {
             InitializeComponent();
         }

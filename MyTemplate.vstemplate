@@ -1,27 +1,27 @@
-<VSTemplate Version="3.0.0" Type="ProjectGroup"
-  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
-    <Name>Xamarin.Forms App (JXUG)</Name>
-    <Description>Xamarin.Forms 2.3.3.180 Template</Description>
+    <Name>Xamarin.Forms App (JXUG) (.NET Standard 2.0)</Name>
+    <Description>Xamarin.Forms 3.1.0.583944 template using .NET Standard 2.0</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
     <DefaultName>XFApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
-  <TemplateContent PreferedSolutionConfiguration="Debug|Any CPU">
+  <TemplateContent PreferedSolusionConfigration="Debug|Any CPU">
     <ProjectCollection>
-        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
-          XFApp\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
-          XFApp.Droid\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
-          XFApp.iOS\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
-          XFApp.UWP\MyTemplate.vstemplate
-        </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        XFApp\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+        XFApp.Android\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+        XFApp.iOS\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+        XFApp.UWP\MyTemplate.vstemplate
+      </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>
