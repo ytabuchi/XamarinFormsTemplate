@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
     <Name>Xamarin.Forms App (JXUG) (.NET Standard 2.0)</Name>
-    <Description>Xamarin.Forms 3.2.0.871581 template using .NET Standard 2.0</Description>
+    <Description>Xamarin.Forms 3.3.0.967583 template using .NET Standard 2.0</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
     <DefaultName>XFApp</DefaultName>
