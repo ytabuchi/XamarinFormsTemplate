@@ -9,7 +9,6 @@ using Xamarin.Forms.Xaml;
 
 namespace $safeprojectname$
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
         public MainPage()

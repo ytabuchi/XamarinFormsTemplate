@@ -4,9 +4,13 @@ This is source code of newest Xamarin.Forms with .NET Standard Xamarin.Forms cor
 
 ## Specification
 
-- Xamarin.Forms 3.1.0.697729
+- Xamarin.Forms 3.2.0.871581
 - PackageReference (can use only Visual Studio 2017)
 - .NET Standard 2.0 core project
+
+## Note
+
+- This template use Xamarin.Android.Support Library v27.0.2.1, so that you need Android SDK Platform v27 to build.
 
 # How to get
 
