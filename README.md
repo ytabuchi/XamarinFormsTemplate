@@ -4,7 +4,7 @@ This is source code of newest Xamarin.Forms with .NET Standard Xamarin.Forms cor
 
 ## Specification
 
-- Xamarin.Forms 3.4.0.1029999
+- Xamarin.Forms 3.5.0.129452
 - PackageReference (can use only Visual Studio 2017)
 - .NET Standard 2.0 core project
 
