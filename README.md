@@ -5,31 +5,32 @@ This is source code of newest Xamarin.Forms with .NET Standard Xamarin.Forms cor
 ## Specification
 
 - Xamarin.Forms 3.5.0.129452
-- PackageReference (can use only Visual Studio 2017)
+    - MonoAndroid 9.0 and Android Support Library 28.0.0.1
 - .NET Standard 2.0 core project
+- PackageReference (can use only Visual Studio 2017)
 
-## Note
+## System Requirement
 
-- This template use Xamarin.Android.Support Library v27.0.2.1, so that you need Android SDK Platform v27 or higher to build.
+- Windows 10 (Recommend) or 7
+- Visual Studio 2017
+- Android SDK 28
 
 # How to get
 
 ### Option 1: Clone the Repository (Recommended)
 
-Clone the project on the following location directly:
+If you have git or some client tools for Github, the easiest way to get it is just clone the project on the following location directly:
 
 `%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#`
 
 or make `Cross-Platform` directory in the above directory, then clone this repogitory.
-
-From command prompt, you can install the template by the following commands:
 
 ```
 cd "%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#"
 git clone https://github.com/ytabuchi/XamarinFormsTemplate.git
 ```
 
-After the first installation, you can update your copy by `git pull` in `XamarinFormsTemplate` directory, and you feel it's easier to update the templates than the other option.
+After the first clone, you can update your copy by `git pull` in `XamarinFormsTemplate` directory.
 
 ### Option 2: Download the ZIP
 
@@ -42,7 +43,11 @@ Please see [blog page (in Japanese)](http://ytabuchi.hatenablog.com/entry/vs-xf-
 
 # How to use
 
-In this template, the Bundle ID base name is set `org.jxug.PROJECTNAME`.If you want to use your own Bundle ID base name such as `com.yourcompany.PROJECTNAME`, please follow the instructions below:
+Select templates
+
+<img src="./NewProject.png" width="450" />
+
+In this template, the Bundle ID is set `org.jxug.PROJECTNAME`. If you want to use your own Bundle ID such as `com.yourcompany.PROJECTNAME`, please follow the instructions below:
 
 - Android
     - Oepn `Properties\AndroidManifest.xml`, then change `package="org.jxug.$ext_safeprojectname$"`.
