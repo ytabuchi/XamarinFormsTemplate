@@ -1,4 +1,4 @@
-# XamarinFormsTemplate
+# Xamarin.Forms Template (.NET Standard 2.0)
 
 This is source code of newest Xamarin.Forms with .NET Standard Xamarin.Forms core project Template by Japan Xamarin User Group.
 
